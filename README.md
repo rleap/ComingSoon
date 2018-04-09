@@ -1,5 +1,9 @@
 # Coming Soon Landing Page
 
+Comes complete with image background, logo, countdown timer, social media icon
+links, and email capture form.  
+
+Stack:
 * HTML5
 * CSS3
 * Bootstrap v4
