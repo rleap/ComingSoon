@@ -1,0 +1,96 @@
+html, body {
+  background: url('../img/bg.jpg') center center no-repeat;
+  background-color: #656362;
+  background-size: cover;
+  height: 100%;
+}
+
+@media only screen and (max-device-width: 736px) {
+
+  .logo {
+    padding-top: 5px !important;
+    width: 40%;
+  }
+
+  p {
+    font-size: 1.5em !important;
+  }
+
+  .countdown {
+    font-size: 1.7em !important;
+  }
+
+  .fab {
+    font-size: 2em !important;
+    margin: 5px 10px !important;
+  }
+
+  .btn-signup {
+    margin: 10px 5px;
+  }
+
+}
+
+.logo {
+  padding-top: 20px;
+}
+
+p {
+  color: white;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: 'Just Another Hand', cursive;
+  font-size: 1.8em;
+}
+
+.countdown {
+  color: white;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  margin: -15px 0 0;
+}
+
+.fab {
+  bottom: 0;
+  color: white;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 3em;
+  margin: 5px 15px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.twitter:hover {
+  bottom: 5px;
+  color: #6cadde;
+}
+
+.facebook:hover {
+  bottom: 5px;
+  color: #3b5998;
+}
+
+.google:hover {
+  bottom: 5px;
+  color: #ea4335;
+}
+
+.instagram:hover {
+  bottom: 5px;
+  color: #517fa6;
+}
+
+.form-inline {
+  display: block;
+}
+
+.btn-signup {
+  background-color: blue;
+  background-color: rgba(161, 186, 226, 0.65);
+  color: #ffffff;
+}
+
+.btn-signup:hover {
+  background-color: green;
+  background-color: rgba(37, 165, 82, 1);
+}
